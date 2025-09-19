@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Flexbox container for the two columns */
+        .container {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px;
+        }
+
+        /* Each column takes up 48% of the width */
+        .column {
+            width: 48%;
+        }
+
+        /* Style for the ordered lists */
+        ol {
+            padding-left: 20px;
+        }
+
+        /* Style for links */
+        a {
+            text-decoration: none;
+        }
+
+        /* Adjust layout for small screens */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                /* Stack columns vertically on smaller screens */
+                align-items: center;
+            }
+
+            .column {
+                width: 100%;
+                /* Make each column full width on small screens */
+                margin-bottom: 20px;
+                /* Add space between stacked columns */
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Two-column container -->
+    <div class="container">
+
+        <!-- First Column with Home, e-store, and Products+Services -->
+        <div class="column">
+            <ol>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="estore.html">e-store</a></li>
+                <li>
+                    <a href="products.html">Products + Services</a>
+                    <ul>
+                        <li><a href="catalog.html">Product Catalog</a></li>
+                        <li><a href="featured.html">Featured Products</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="suppliers.html">Suppliers</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="yourhealth.html">Your Health</a>
+                    <ul>
+                        <li><a href="bmi.html">Compute Your BMI</a></li>
+                        <li><a href="tools.html">Tools + Resources</a></li>
+                        <li><a href="expert.html">Ask An Expert</a></li>
+                        <li><a href="links.html">Useful Links</a></li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
+
+        <!-- Second Column with About Us, Contact Us, and Site Map -->
+        <div class="column">
+            <ol start="5">
+                <li>
+                    <a href="about.html">About Us</a>
+                    <ul>
+                        <li><a href="vision.html">Vision + Mission</a></li>
+                        <li><a href="employment.html">Job Opportunities</a></li>
+                        <li><a href="news.html">News Archive</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="contact.html">Contact Us</a>
+                    <ul>
+                        <li><a href="locations.html">Locations</a></li>
+                        <li><a href="feedback.html">Feedback Form</a></li>
+                    </ul>
+                </li>
+                <li><a href="sitemap.html">Site Map</a></li>
+            </ol>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
