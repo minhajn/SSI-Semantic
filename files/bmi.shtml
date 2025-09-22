@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<!--#include virtual="../../nature/common/documenthead.html"-->
+
+<body>
+    <!--#include virtual="../../nature/common/header.html"-->
+    <h3>BMI</h3>
+    <div class="bmi">
+        <div class="bmi-container">
+            <h4 class="bmi-title">BMI Calculator</h4>
+            <form action="#" method="get">
+                <label class="bmi-label" for="weight">Weight (kg):</label>
+                <input class="bmi-input" type="number" id="weight" name="weight" placeholder="Enter your weight"
+                    required>
+
+                <label class="bmi-label" for="height">Height (cm):</label>
+                <input class="bmi-input" type="number" id="height" name="height" placeholder="Enter your height"
+                    required>
+
+                <input class="bmi-button" type="submit" value="Calculate BMI">
+            </form>
+        </div>
+    </div>
+    <!--#include virtual="../../nature/common/footer.html"-->
+</body>
+
+</html>

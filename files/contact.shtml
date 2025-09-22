@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<!--#include virtual="../../nature/common/documenthead.html"-->
+
+<body>
+    <!--#include virtual="../../nature/common/header.html"-->
+    <main class="contact-container">
+        <h3>Contact Us</h3>
+
+        <!-- Locations Section -->
+        <section class="locations">
+            <h4>Our Locations</h4>
+            <ul>
+                <li><strong>Head Office:</strong> Satarkul, Dhaka</li>
+                <li><strong>Branch Office:</strong> Satarkul, Dhaka</li>
+                <li><strong>Support Center:</strong> Satarkul, Dhaka</li>
+            </ul>
+        </section>
+
+        <!-- Feedback Form Section -->
+        <section class="feedback-form">
+            <h4>Send Us Your Feedback</h4>
+            <form action="#" method="post">
+                <label class="form-label" for="name">Name:</label>
+                <input class="form-input" type="text" id="name" name="name" required>
+
+                <label class="form-label" for="email">Email:</label>
+                <input class="form-input" type="email" id="email" name="email" required>
+
+                <label class="form-label" for="message">Message:</label>
+                <textarea class="form-input" id="message" name="message" rows="5" required></textarea>
+
+                <button class="form-button" type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <!--#include virtual="../../nature/common/footer.html"-->
+</body>
+
+</html>

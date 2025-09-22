@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+
+<!--#include virtual="../../nature/common/documenthead.html"-->
+
+<body>
+    <!--#include virtual="../../nature/common/header.html"-->
+    <h3>Site Map</h3>
+    <!--#include virtual="../../nature/common/mainmenu.html"-->
+    <!--#include virtual="../../nature/common/footer.html"-->
+</body>
+
+</html>

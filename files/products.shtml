@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<!--#include virtual="../../nature/common/documenthead.html"-->
+
+<body>
+    <!--#include virtual="../../nature/common/header.html"-->
+    <main class="ps-container">
+        <h3>Products & Services</h3>
+
+        <section class="ps-section">
+            <a href="../../nature/files/productcatalog.shtml">
+                <h4>Product Catalog</h4>
+            </a>
+            <p>Explore our range of organic teas, herbal oils, and natural soaps.</p>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </section>
+
+        <section class="ps-section">
+            <a href="../../nature/files/featuredproducts.shtml">
+                <h4>Featured Products</h4>
+            </a>
+            <p>Specially curated seasonal highlights and bestsellers.</p>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </section>
+
+        <section class="ps-section">
+            <a href="../../nature/files/services.shtml">
+                <h4>Services</h4>
+            </a>
+            <ul>
+                <li>Wholesale Supply</li>
+                <li>Custom Herbal Blends</li>
+                <li>Consulting</li>
+            </ul>
+        </section>
+
+        <section class="ps-section">
+            <a href="../../nature/files/suppliers.shtml">
+                <h4>Suppliers</h4>
+            </a>
+            <p>We partner with sustainable farms and ethical producers worldwide.</p>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </section>
+    </main>
+    <!--#include virtual="../../nature/common/footer.html"-->
+</body>
+
+</html>

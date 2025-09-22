@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<!--#include virtual="../../nature/common/documenthead.html"-->
+
+<body>
+
+    <!--#include virtual="../../nature/common/header.html"-->
+
+    <main class="e-container">
+        <h3>E-Store</h3>
+        <section id="e-product" class="e-product-grid">
+            <article class="e-product-card">
+                <div class="e-product-img"><img src="../pictures/tea.png" alt=""></div>
+                <h3>Organic Herbal Tea — Chamomile</h3>
+                <p>Relaxing chamomile blend, 20 sachets.</p>
+                <div class="e-product-footer">
+                    <div>
+                        <small>per box</small>
+                        <strong>৳277.50</strong>
+                    </div>
+                    <button class="e-btn">Add</button>
+                </div>
+            </article>
+
+            <article class="e-product-card">
+                <div class="e-product-img"><img src="../pictures/honey.png" alt=""></div>
+                <h3>Raw Honey — 250g</h3>
+                <p>Unfiltered wildflower honey from local hives.</p>
+                <div class="e-product-footer">
+                    <div>
+                        <small>jar</small>
+                        <strong>৳120.00</strong>
+                    </div>
+                    <button class="e-btn">Add</button>
+                </div>
+            </article>
+
+            <article class="e-product-card">
+                <div class="e-product-img"><img src="../pictures/soap.png" alt=""></div>
+                <h3>Handmade Soap — Lavender</h3>
+                <p>Cold-pressed soap bar with lavender essential oil.</p>
+                <div class="e-product-footer">
+                    <div>
+                        <small>bar</small>
+                        <strong>৳55.25</strong>
+                    </div>
+                    <button class="e-btn">Add</button>
+                </div>
+            </article>
+
+            <article class="e-product-card">
+                <div class="e-product-img"><img src="../pictures/bag.png" alt=""></div>
+                <h3>Eco Cotton Tote Bag</h3>
+                <p>Reusable cotton tote with Nature's Source logo.</p>
+                <div class="e-product-footer">
+                    <div>
+                        <small>each</small>
+                        <strong>৳199.00</strong>
+                    </div>
+                    <button class="e-btn">Add</button>
+                </div>
+            </article>
+        </section>
+
+        <section id="e-cart" class="e-cart">
+            <h3>Your Cart</h3>
+            <p>Your cart is empty. (Static demo, no functionality)</p>
+            <div class="e-cart-summary">
+                <p>Subtotal: ৳0.00</p>
+                <p>Shipping: ৳0.00</p>
+                <p>Tax (5%): ৳0.00</p>
+                <strong>Total: ৳0.00</strong>
+            </div>
+            <button class="e-btn">Checkout</button>
+        </section>
+    </main>
+
+    <!--#include virtual="../../nature/common/footer.html"-->
+
+</body>
+
+</html>
