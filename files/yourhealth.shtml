@@ -47,7 +47,7 @@
         </section>
 
         <section class="yh-section">
-            <h4>Useful Links</h4>
+            <h4 id="links">Useful Links</h4>
             <ul>
                 <li><a href="https://www.who.int/">World Health Organization (WHO)</a></li>
                 <li><a href="https://www.cdc.gov/health-topics.html">CDC Healthy Living</a></li>
